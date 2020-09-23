@@ -46,6 +46,16 @@ public class Calculator {
   }
   
   
+  public double subtraction() {
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter the first number: ");
+    double first = input.nextDouble();
+    System.out.println("Enter the second number: ");
+    double second = input.nextDouble();
+    
+    return first - second;
+  }
+  
   
 }
 
