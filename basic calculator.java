@@ -11,7 +11,6 @@ public class Calculator {
     
     decision(choice);
     
-    
   }
   
   
@@ -67,6 +66,16 @@ public class Calculator {
     return first * second;
   }
   
+  
+  public double division() {
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter the first number: ");
+    double first = input.nextDouble();
+    System.out.println("Enter the second number: ");
+    double second = input.nextDouble();
+    
+    return first / second;
+  }
   
   
 }
